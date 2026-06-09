@@ -518,5 +518,110 @@
     "La costumbre de los conductores"
   ],
   "correcta": 1
+},
+  {
+  "id": 61,
+  "tema": "Alcohol",
+  "pregunta": "¿Cuál es el límite de alcohol permitido para conductores particulares en CABA?",
+  "opciones": ["0,5 g/l", "0,2 g/l", "0,0 g/l", "1,0 g/l"],
+  "correcta": 2
+},
+{
+  "id": 62,
+  "tema": "Alcohol",
+  "pregunta": "El consumo de alcohol afecta principalmente:",
+  "opciones": ["La atención y el tiempo de reacción", "El color del vehículo", "La presión de los neumáticos", "La potencia del motor"],
+  "correcta": 0
+},
+{
+  "id": 63,
+  "tema": "Alcohol",
+  "pregunta": "Conducir bajo efectos del alcohol incrementa:",
+  "opciones": ["La seguridad", "El riesgo de siniestros", "La visibilidad", "La adherencia de los neumáticos"],
+  "correcta": 1
+},
+{
+  "id": 64,
+  "tema": "Drogas",
+  "pregunta": "Las drogas psicoactivas pueden:",
+  "opciones": ["Mejorar la conducción", "Alterar la percepción y el juicio", "Reducir riesgos", "Aumentar la atención permanentemente"],
+  "correcta": 1
+},
+{
+  "id": 65,
+  "tema": "Medicamentos",
+  "pregunta": "Algunos medicamentos pueden afectar:",
+  "opciones": ["La capacidad de conducir", "La patente del vehículo", "La documentación", "La cilindrada"],
+  "correcta": 0
+},
+{
+  "id": 66,
+  "tema": "Distracciones",
+  "pregunta": "Usar el teléfono celular mientras se conduce:",
+  "opciones": ["Es seguro si se conduce despacio", "Disminuye la atención", "Mejora la concentración", "No genera riesgos"],
+  "correcta": 1
+},
+{
+  "id": 67,
+  "tema": "Distracciones",
+  "pregunta": "Enviar mensajes mientras se conduce:",
+  "opciones": ["Es una distracción peligrosa", "Es seguro en semáforos", "Es recomendable", "No afecta la conducción"],
+  "correcta": 0
+},
+{
+  "id": 68,
+  "tema": "Fatiga",
+  "pregunta": "La fatiga al conducir puede producir:",
+  "opciones": ["Mayor atención", "Somnolencia y disminución de reflejos", "Mejor visión", "Mayor precisión"],
+  "correcta": 1
+},
+{
+  "id": 69,
+  "tema": "Fatiga",
+  "pregunta": "Ante signos de sueño durante la conducción se debe:",
+  "opciones": ["Aumentar velocidad", "Detenerse en lugar seguro y descansar", "Escuchar música más fuerte", "Abrir las ventanillas solamente"],
+  "correcta": 1
+},
+{
+  "id": 70,
+  "tema": "Alcohol",
+  "pregunta": "Tomar café elimina los efectos del alcohol:",
+  "opciones": ["Sí", "No", "Solo parcialmente", "Depende del horario"],
+  "correcta": 1
+},
+{
+  "id": 71,
+  "tema": "Distracciones",
+  "pregunta": "Programar el GPS mientras se conduce:",
+  "opciones": ["Es una distracción", "Es obligatorio", "Es recomendable", "No genera riesgos"],
+  "correcta": 0
+},
+{
+  "id": 72,
+  "tema": "Seguridad Vial",
+  "pregunta": "La atención del conductor debe estar:",
+  "opciones": ["Principalmente en el celular", "Permanentemente en el tránsito", "En la radio", "En los pasajeros"],
+  "correcta": 1
+},
+{
+  "id": 73,
+  "tema": "Alcohol",
+  "pregunta": "La única forma segura de conducir respecto al alcohol es:",
+  "opciones": ["Beber poco", "No consumir alcohol antes de conducir", "Tomar café después", "Esperar unos minutos"],
+  "correcta": 1
+},
+{
+  "id": 74,
+  "tema": "Drogas",
+  "pregunta": "Conducir bajo efectos de drogas puede:",
+  "opciones": ["Aumentar la capacidad de reacción", "Comprometer seriamente la conducción", "Reducir riesgos", "Mejorar la percepción"],
+  "correcta": 1
+},
+{
+  "id": 75,
+  "tema": "Distracciones",
+  "pregunta": "¿Cuál de estas conductas es más segura al conducir?",
+  "opciones": ["Manipular el celular", "Leer mensajes", "Mantener atención exclusiva en la conducción", "Buscar objetos dentro del vehículo"],
+  "correcta": 2
 }
 ]
