@@ -58,5 +58,75 @@
       "A los colectivos"
     ],
     "correcta": 0
-  }
+  },
+  {
+  "id": 6,
+  "tema": "Circulación",
+  "pregunta": "¿Está permitido adelantar en una curva sin visibilidad suficiente?",
+  "opciones": ["Sí", "No", "Solo de día", "Solo en avenidas"],
+  "correcta": 1
+},
+{
+  "id": 7,
+  "tema": "Circulación",
+  "pregunta": "Antes de realizar un giro, el conductor debe:",
+  "opciones": ["Acelerar", "Señalizar la maniobra", "Tocar bocina", "Detenerse completamente"],
+  "correcta": 1
+},
+{
+  "id": 8,
+  "tema": "Circulación",
+  "pregunta": "Al incorporarse a una vía, la prioridad corresponde a:",
+  "opciones": ["Quien ingresa", "Quien ya circula por la vía", "El vehículo más grande", "Quien toca bocina"],
+  "correcta": 1
+},
+{
+  "id": 9,
+  "tema": "Ferrocarril",
+  "pregunta": "Al aproximarse a un paso a nivel sin barreras, se debe:",
+  "opciones": ["Acelerar", "Reducir velocidad y extremar precauciones", "Detenerse siempre", "Tocar bocina continuamente"],
+  "correcta": 1
+},
+{
+  "id": 10,
+  "tema": "Circulación",
+  "pregunta": "La maniobra correcta para sobrepasar otro vehículo es:",
+  "opciones": ["Por la derecha", "Por la izquierda cuando esté permitido", "Por cualquier lado", "Por la banquina"],
+  "correcta": 1
+},
+{
+  "id": 11,
+  "tema": "Semáforos",
+  "pregunta": "Cuando un semáforo funciona normalmente, la prioridad se determina por:",
+  "opciones": ["La regla de la derecha", "Las luces del semáforo", "La velocidad", "El tamaño del vehículo"],
+  "correcta": 1
+},
+{
+  "id": 12,
+  "tema": "Semáforos",
+  "pregunta": "Una luz roja obliga a:",
+  "opciones": ["Reducir velocidad", "Detenerse", "Girar", "Tocar bocina"],
+  "correcta": 1
+},
+{
+  "id": 13,
+  "tema": "Circulación",
+  "pregunta": "La marcha atrás debe utilizarse:",
+  "opciones": ["Libremente", "Solo para maniobras indispensables", "Solo de noche", "Solo en avenidas"],
+  "correcta": 1
+},
+{
+  "id": 14,
+  "tema": "Emergencias",
+  "pregunta": "Al escuchar una sirena de emergencia se debe:",
+  "opciones": ["Mantener la velocidad", "Facilitar el paso", "Acelerar", "Detenerse en medio de la calzada"],
+  "correcta": 1
+},
+{
+  "id": 15,
+  "tema": "Peatones",
+  "pregunta": "En una senda peatonal correctamente señalizada tienen prioridad:",
+  "opciones": ["Los automóviles", "Los peatones", "Las motocicletas", "Los taxis"],
+  "correcta": 1
+}
 ]
