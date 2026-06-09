@@ -623,5 +623,180 @@
   "pregunta": "¿Cuál de estas conductas es más segura al conducir?",
   "opciones": ["Manipular el celular", "Leer mensajes", "Mantener atención exclusiva en la conducción", "Buscar objetos dentro del vehículo"],
   "correcta": 2
+},
+{
+"id":76,
+"tema":"Documentación",
+"pregunta":"¿Cuál de los siguientes documentos es obligatorio para circular?",
+"opciones":["Carnet de obra social","Licencia de conducir vigente","Título secundario","Factura de combustible"],
+"correcta":1
+},
+{
+"id":77,
+"tema":"Documentación",
+"pregunta":"La licencia de conducir acredita:",
+"opciones":["La propiedad del vehículo","La habilitación para conducir","La contratación de seguro","La antigüedad del conductor"],
+"correcta":1
+},
+{
+"id":78,
+"tema":"Documentación",
+"pregunta":"El seguro obligatorio exigido para circular es:",
+"opciones":["Seguro contra granizo","Responsabilidad Civil","Seguro de vida","Seguro mecánico"],
+"correcta":1
+},
+{
+"id":79,
+"tema":"Documentación",
+"pregunta":"La cédula del vehículo sirve para:",
+"opciones":["Acreditar identificación del vehículo","Reemplazar la licencia","Pagar infracciones","Realizar la VTV"],
+"correcta":0
+},
+{
+"id":80,
+"tema":"Documentación",
+"pregunta":"¿Qué debe hacerse si la licencia está vencida?",
+"opciones":["Circular normalmente","Renovarla antes de conducir","Usar fotocopia","Esperar una multa"],
+"correcta":1
+},
+{
+"id":81,
+"tema":"Documentación",
+"pregunta":"La documentación debe presentarse:",
+"opciones":["Solo ante un accidente","Cuando la autoridad la requiera","Únicamente en autopistas","Solo en controles nocturnos"],
+"correcta":1
+},
+{
+"id":82,
+"tema":"Documentación",
+"pregunta":"Circular sin seguro obligatorio implica:",
+"opciones":["Una infracción grave","Una advertencia verbal","Ninguna consecuencia","Un beneficio económico"],
+"correcta":0
+},
+{
+"id":83,
+"tema":"VTV",
+"pregunta":"La VTV tiene como finalidad principal:",
+"opciones":["Verificar condiciones de seguridad del vehículo","Aumentar velocidad","Reducir consumo","Modificar patente"],
+"correcta":0
+},
+{
+"id":84,
+"tema":"VTV",
+"pregunta":"Los neumáticos deben presentar:",
+"opciones":["Desgaste uniforme y dibujo adecuado","Grietas visibles","Alambres expuestos","Cualquier estado"],
+"correcta":0
+},
+{
+"id":85,
+"tema":"VTV",
+"pregunta":"Un sistema de frenos defectuoso:",
+"opciones":["No afecta la conducción","Compromete la seguridad","Mejora el frenado","Reduce riesgos"],
+"correcta":1
+},
+{
+"id":86,
+"tema":"VTV",
+"pregunta":"Las luces del vehículo deben:",
+"opciones":["Funcionar correctamente","Encender solo de noche","Usarse únicamente en ruta","Permanecer apagadas"],
+"correcta":0
+},
+{
+"id":87,
+"tema":"Mecánica",
+"pregunta":"La presión incorrecta de neumáticos puede:",
+"opciones":["Afectar estabilidad y frenado","Mejorar adherencia","No influir","Reducir desgaste"],
+"correcta":0
+},
+{
+"id":88,
+"tema":"Mecánica",
+"pregunta":"¿Qué elemento permite detener el vehículo de forma segura?",
+"opciones":["Sistema de frenos","Radio","GPS","Parabrisas"],
+"correcta":0
+},
+{
+"id":89,
+"tema":"VTV",
+"pregunta":"Los espejos retrovisores deben:",
+"opciones":["Permitir correcta visión","Estar plegados","Ser decorativos","Usarse solo en ruta"],
+"correcta":0
+},
+{
+"id":90,
+"tema":"Mecánica",
+"pregunta":"El mantenimiento preventivo permite:",
+"opciones":["Detectar fallas antes de que generen riesgos","Aumentar multas","Evitar documentación","Reducir visibilidad"],
+"correcta":0
+},
+{
+"id":91,
+"tema":"Usuarios vulnerables",
+"pregunta":"Los peatones son considerados:",
+"opciones":["Usuarios vulnerables","Conductores profesionales","Autoridades de tránsito","Inspectores"],
+"correcta":0
+},
+{
+"id":92,
+"tema":"Usuarios vulnerables",
+"pregunta":"Al aproximarse a un cruce peatonal se debe:",
+"opciones":["Reducir velocidad","Acelerar","Tocar bocina continuamente","Ignorar peatones"],
+"correcta":0
+},
+{
+"id":93,
+"tema":"Usuarios vulnerables",
+"pregunta":"Los ciclistas requieren:",
+"opciones":["Mayor precaución por parte de conductores","Menor atención","Prioridad secundaria","Ninguna consideración especial"],
+"correcta":0
+},
+{
+"id":94,
+"tema":"Convivencia vial",
+"pregunta":"La conducción responsable implica:",
+"opciones":["Respetar normas y usuarios","Competir con otros vehículos","Circular más rápido","Ignorar señalización"],
+"correcta":0
+},
+{
+"id":95,
+"tema":"Usuarios vulnerables",
+"pregunta":"Ante una persona con movilidad reducida se debe:",
+"opciones":["Facilitar el paso","Apurarla con bocina","Ignorarla","Exigir prioridad"],
+"correcta":0
+},
+{
+"id":96,
+"tema":"Convivencia vial",
+"pregunta":"El respeto entre usuarios contribuye a:",
+"opciones":["Mayor seguridad vial","Más conflictos","Más infracciones","Mayor riesgo"],
+"correcta":0
+},
+{
+"id":97,
+"tema":"Usuarios vulnerables",
+"pregunta":"Los niños en la vía pública:",
+"opciones":["Requieren especial atención","No representan riesgo","Deben apartarse siempre","Tienen prioridad menor"],
+"correcta":0
+},
+{
+"id":98,
+"tema":"Convivencia vial",
+"pregunta":"La agresividad al conducir:",
+"opciones":["Aumenta riesgos","Mejora seguridad","Reduce siniestros","Favorece circulación"],
+"correcta":0
+},
+{
+"id":99,
+"tema":"Usuarios vulnerables",
+"pregunta":"Al adelantar ciclistas debe mantenerse:",
+"opciones":["Distancia lateral segura","Máxima velocidad","Uso continuo de bocina","Distancia mínima"],
+"correcta":0
+},
+{
+"id":100,
+"tema":"Convivencia vial",
+"pregunta":"El objetivo principal de las normas de tránsito es:",
+"opciones":["Proteger la vida y la seguridad","Aumentar multas","Reducir cantidad de vehículos","Incrementar velocidad"],
+"correcta":0
 }
 ]
