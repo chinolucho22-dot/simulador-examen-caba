@@ -233,5 +233,110 @@
   "pregunta": "La conducción segura requiere:",
   "opciones": ["Atención permanente al entorno", "Velocidad elevada", "Reacciones bruscas", "Uso constante de la bocina"],
   "correcta": 0
+},
+  {
+  "id": 31,
+  "tema": "Señalización",
+  "pregunta": "Las señales reglamentarias tienen como función principal:",
+  "opciones": ["Informar servicios", "Indicar normas de cumplimiento obligatorio", "Advertir peligros", "Identificar calles"],
+  "correcta": 1
+},
+{
+  "id": 32,
+  "tema": "Señalización",
+  "pregunta": "Una señal de 'PARE' obliga a:",
+  "opciones": ["Reducir velocidad", "Detener completamente la marcha", "Tocar bocina", "Girar obligatoriamente"],
+  "correcta": 1
+},
+{
+  "id": 33,
+  "tema": "Señalización",
+  "pregunta": "Las señales preventivas tienen como objetivo:",
+  "opciones": ["Advertir riesgos o situaciones especiales", "Imponer obligaciones", "Indicar destinos", "Identificar comercios"],
+  "correcta": 0
+},
+{
+  "id": 34,
+  "tema": "Señalización",
+  "pregunta": "Una señal de curva peligrosa pertenece al grupo de señales:",
+  "opciones": ["Informativas", "Preventivas", "Reglamentarias", "Transitorias"],
+  "correcta": 1
+},
+{
+  "id": 35,
+  "tema": "Señalización",
+  "pregunta": "Las señales informativas sirven para:",
+  "opciones": ["Advertir peligros", "Indicar prohibiciones", "Orientar e informar al usuario", "Regular prioridades"],
+  "correcta": 2
+},
+{
+  "id": 36,
+  "tema": "Señalización",
+  "pregunta": "Una línea blanca discontinua en la calzada indica:",
+  "opciones": ["Prohibición absoluta de cruce", "Posibilidad de cambio de carril con precaución", "Carril exclusivo", "Zona de detención"],
+  "correcta": 1
+},
+{
+  "id": 37,
+  "tema": "Señalización",
+  "pregunta": "La doble línea amarilla continua indica:",
+  "opciones": ["Adelantamiento permitido", "Prohibición de cruzar la línea", "Carril reversible", "Zona escolar"],
+  "correcta": 1
+},
+{
+  "id": 38,
+  "tema": "Señalización",
+  "pregunta": "La senda peatonal demarcada indica:",
+  "opciones": ["Zona de estacionamiento", "Lugar destinado al cruce de peatones", "Carril exclusivo", "Parada de colectivos"],
+  "correcta": 1
+},
+{
+  "id": 39,
+  "tema": "Señalización",
+  "pregunta": "Las marcas horizontales sobre el pavimento sirven para:",
+  "opciones": ["Decorar la vía", "Regular y ordenar la circulación", "Identificar edificios", "Publicidad vial"],
+  "correcta": 1
+},
+{
+  "id": 40,
+  "tema": "Señalización",
+  "pregunta": "Una flecha pintada en el pavimento indica:",
+  "opciones": ["Sentido o dirección permitida de circulación", "Zona de estacionamiento", "Velocidad máxima", "Paso ferroviario"],
+  "correcta": 0
+},
+{
+  "id": 41,
+  "tema": "Señalización",
+  "pregunta": "Una señal de velocidad máxima establece:",
+  "opciones": ["Una recomendación", "Un límite obligatorio", "Una velocidad mínima", "Una referencia aproximada"],
+  "correcta": 1
+},
+{
+  "id": 42,
+  "tema": "Señalización",
+  "pregunta": "Las señales de tránsito prevalecen sobre:",
+  "opciones": ["Las normas generales cuando así lo indiquen", "La conducción responsable", "Las condiciones climáticas", "La documentación"],
+  "correcta": 0
+},
+{
+  "id": 43,
+  "tema": "Señalización",
+  "pregunta": "Una señal de prohibido estacionar indica:",
+  "opciones": ["Estacionamiento libre", "Prohibición de estacionar en ese sector", "Prohibición de circular", "Carril exclusivo"],
+  "correcta": 1
+},
+{
+  "id": 44,
+  "tema": "Señalización",
+  "pregunta": "Las señales transitorias suelen utilizarse en:",
+  "opciones": ["Obras o situaciones temporales", "Escuelas únicamente", "Hospitales", "Estaciones de servicio"],
+  "correcta": 0
+},
+{
+  "id": 45,
+  "tema": "Señalización",
+  "pregunta": "Ante una señal que indica estrechamiento de calzada, el conductor debe:",
+  "opciones": ["Aumentar velocidad", "Extremar precauciones", "Detenerse obligatoriamente", "Circular por la banquina"],
+  "correcta": 1
 }
 ]
