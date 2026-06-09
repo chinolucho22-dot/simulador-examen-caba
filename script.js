@@ -95,7 +95,44 @@ function siguientePregunta() {
     const respuestaUsuario =
         parseInt(seleccionada.value);
 
-    if (respuestaUsuario === examen[preguntaActual].correcta) {
+    const correcta = examen[preguntaActual].correcta;
+
+if (respuestaUsuario === correcta) {
+
+    respuestasCorrectas++;
+
+    preguntaActual++;
+
+    if (preguntaActual < examen.length) {
+        mostrarPregunta();
+    } else {
+        mostrarResultado();
+    }
+
+} else {
+
+    const respuestaCorrecta =
+        examen[preguntaActual].opciones[correcta];
+
+    document.getElementById("app").innerHTML = `
+
+        <h2>❌ Respuesta Incorrecta</h2>
+
+        <p>La respuesta correcta era:</p>
+
+        <h3 style="color:green;">
+            ${respuestaCorrecta}
+        </h3>
+
+        <br>
+
+        <button onclick="continuarDespuesError()">
+            Continuar
+        </button>
+
+    `;
+}
+{
         respuestasCorrectas++;
     }
 
@@ -107,7 +144,16 @@ function siguientePregunta() {
         mostrarResultado();
     }
 }
+function continuarDespuesError() {
 
+    preguntaActual++;
+
+    if (preguntaActual < examen.length) {
+        mostrarPregunta();
+    } else {
+        mostrarResultado();
+    }
+}
 function mostrarResultado() {
 
     const porcentaje =
