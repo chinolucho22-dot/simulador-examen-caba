@@ -10,7 +10,8 @@ async function cargarPreguntas() {
     const respuesta = await fetch('preguntas_v2.json');
     preguntas = await respuesta.json();
 
-    document.getElementById("startBtn")
+    document
+        .getElementById("startBtn")
         .addEventListener("click", iniciarExamen);
 }
 
@@ -32,16 +33,37 @@ function iniciarExamen() {
 
 function mostrarPregunta() {
 
-    const app = document.getElementById("app");
-
     const pregunta = examen[preguntaActual];
 
-    app.innerHTML = `
+    const progreso =
+        Math.round((preguntaActual / CANTIDAD_EXAMEN) * 100);
+
+    document.getElementById("app").innerHTML = `
+
+        <p><strong>Progreso:</strong>
+        ${preguntaActual + 1} / ${CANTIDAD_EXAMEN}</p>
+
+        <div style="
+            width:100%;
+            background:#ddd;
+            height:25px;
+            border-radius:10px;
+            overflow:hidden;
+            margin-bottom:20px;
+        ">
+            <div style="
+                width:${progreso}%;
+                background:#4CAF50;
+                height:100%;
+            ">
+            </div>
+        </div>
+
         <h2>Pregunta ${preguntaActual + 1} de ${CANTIDAD_EXAMEN}</h2>
 
         <p><strong>${pregunta.pregunta}</strong></p>
 
-        ${pregunta.opciones.map((opcion, index) => `
+        ${pregunta.opciones.map((opcion,index)=>`
             <div>
                 <label>
                     <input type="radio"
@@ -89,23 +111,41 @@ function siguientePregunta() {
 function mostrarResultado() {
 
     const porcentaje =
-        Math.round((respuestasCorrectas / examen.length) * 100);
+        Math.round(
+            (respuestasCorrectas / examen.length) * 100
+        );
 
     const aprobado = porcentaje >= 70;
 
     document.getElementById("app").innerHTML = `
+
         <h2>Examen Finalizado</h2>
 
-        <p>Correctas: ${respuestasCorrectas}</p>
+        <p><strong>Correctas:</strong>
+        ${respuestasCorrectas}</p>
 
-        <p>Incorrectas: ${examen.length - respuestasCorrectas}</p>
+        <p><strong>Incorrectas:</strong>
+        ${examen.length - respuestasCorrectas}</p>
 
-        <h3>${porcentaje}%</h3>
+        <h1>${porcentaje}%</h1>
 
         <h2>
-            ${aprobado ? "✅ APROBADO" : "❌ DESAPROBADO"}
+        ${aprobado
+            ? "✅ APROBADO"
+            : "❌ DESAPROBADO"}
         </h2>
+
+        <br>
+
+        <button onclick="reiniciarExamen()">
+            🔄 Rendir otro examen
+        </button>
     `;
+}
+
+function reiniciarExamen() {
+
+    iniciarExamen();
 }
 
 cargarPreguntas();
