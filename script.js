@@ -2,6 +2,7 @@ let preguntas = [];
 let examen = [];
 let preguntaActual = 0;
 let respuestasCorrectas = 0;
+let errores = [];
 
 const CANTIDAD_EXAMEN = 30;
 
@@ -25,6 +26,7 @@ function iniciarExamen() {
 
     preguntaActual = 0;
     respuestasCorrectas = 0;
+    errores = [];
 
     document.getElementById("startBtn").style.display = "none";
 
@@ -113,6 +115,34 @@ if (respuestaUsuario === correcta) {
 
     const respuestaCorrecta =
         examen[preguntaActual].opciones[correcta];
+    errores.push({
+    pregunta: examen[preguntaActual].pregunta,
+    correcta: respuestaCorrecta,
+    usuario: examen[preguntaActual].opciones[respuestaUsuario]
+});
+    let detalleErrores = "";
+
+errores.forEach((error, index) => {
+
+    detalleErrores += `
+
+        <hr>
+
+        <h3>❌ Error ${index + 1}</h3>
+
+        <p><strong>Pregunta:</strong>
+        ${error.pregunta}</p>
+
+        <p><strong>Tu respuesta:</strong>
+        ${error.usuario}</p>
+
+        <p style="color:green;">
+        <strong>Respuesta correcta:</strong>
+        ${error.correcta}
+        </p>
+
+    `;
+});
 
     document.getElementById("app").innerHTML = `
 
@@ -176,6 +206,11 @@ function mostrarResultado() {
         <button onclick="reiniciarExamen()">
             🔄 Rendir otro examen
         </button>
+        <br><br>
+
+<h2>Tus errores</h2>
+
+${detalleErrores}
     `;
 }
 
