@@ -128,5 +128,110 @@
   "pregunta": "En una senda peatonal correctamente señalizada tienen prioridad:",
   "opciones": ["Los automóviles", "Los peatones", "Las motocicletas", "Los taxis"],
   "correcta": 1
+},
+  {
+  "id": 16,
+  "tema": "Circulación",
+  "pregunta": "La distancia de seguimiento debe permitir:",
+  "opciones": ["Ahorrar combustible", "Detenerse con seguridad", "Circular más rápido", "Facilitar adelantamientos"],
+  "correcta": 1
+},
+{
+  "id": 17,
+  "tema": "Estacionamiento",
+  "pregunta": "¿Está permitido estacionar sobre una senda peatonal?",
+  "opciones": ["Sí", "No", "Solo de noche", "Solo por pocos minutos"],
+  "correcta": 1
+},
+{
+  "id": 18,
+  "tema": "Circulación",
+  "pregunta": "Al aproximarse a una intersección se debe:",
+  "opciones": ["Aumentar la velocidad", "Observar y reducir la velocidad", "Tocar bocina", "Cambiar de carril"],
+  "correcta": 1
+},
+{
+  "id": 19,
+  "tema": "Peatones",
+  "pregunta": "¿Quién tiene prioridad en una senda peatonal?",
+  "opciones": ["Los automóviles", "Los peatones", "Las motocicletas", "Los taxis"],
+  "correcta": 1
+},
+{
+  "id": 20,
+  "tema": "Demarcación",
+  "pregunta": "Una línea amarilla continua indica:",
+  "opciones": ["Se puede adelantar", "No debe cruzarse", "Carril exclusivo", "Zona de estacionamiento"],
+  "correcta": 1
+},
+{
+  "id": 21,
+  "tema": "Prioridades",
+  "pregunta": "Al girar con luz verde y existir peatones cruzando, se debe:",
+  "opciones": ["Continuar", "Ceder el paso", "Acelerar", "Tocar bocina"],
+  "correcta": 1
+},
+{
+  "id": 22,
+  "tema": "Ciclovías",
+  "pregunta": "¿Está permitido detenerse sobre una ciclovía?",
+  "opciones": ["Sí", "No", "Solo por emergencias", "Solo de noche"],
+  "correcta": 1
+},
+{
+  "id": 23,
+  "tema": "Adelantamiento",
+  "pregunta": "El adelantamiento debe realizarse cuando:",
+  "opciones": ["Existe visibilidad suficiente", "Hay niebla", "Hay doble línea amarilla", "Existe una curva"],
+  "correcta": 0
+},
+{
+  "id": 24,
+  "tema": "Prioridades",
+  "pregunta": "La prioridad de paso tiene como finalidad principal:",
+  "opciones": ["Aumentar la velocidad", "Evitar conflictos y siniestros", "Reducir multas", "Facilitar adelantamientos"],
+  "correcta": 1
+},
+{
+  "id": 25,
+  "tema": "Circulación",
+  "pregunta": "Al cambiar de carril se debe:",
+  "opciones": ["Señalizar y verificar espejos", "Acelerar", "Tocar bocina", "Frenar bruscamente"],
+  "correcta": 0
+},
+{
+  "id": 26,
+  "tema": "Prioridades",
+  "pregunta": "En una bocacalle sin señalización, la prioridad de la derecha es una regla general que:",
+  "opciones": ["Siempre se aplica", "Tiene excepciones previstas por la normativa", "Solo aplica de noche", "Solo aplica en avenidas"],
+  "correcta": 1
+},
+{
+  "id": 27,
+  "tema": "Rotondas",
+  "pregunta": "Al ingresar a una rotonda se debe:",
+  "opciones": ["Forzar el ingreso", "Ceder el paso a quienes circulan dentro", "Acelerar", "Tocar bocina"],
+  "correcta": 1
+},
+{
+  "id": 28,
+  "tema": "Peatones",
+  "pregunta": "Los peatones son considerados:",
+  "opciones": ["Usuarios vulnerables", "Conductores", "Pasajeros", "Vehículos livianos"],
+  "correcta": 0
+},
+{
+  "id": 29,
+  "tema": "Circulación",
+  "pregunta": "Antes de iniciar la marcha debe verificarse:",
+  "opciones": ["Solo el combustible", "Que la maniobra pueda realizarse con seguridad", "La radio", "La temperatura exterior"],
+  "correcta": 1
+},
+{
+  "id": 30,
+  "tema": "Seguridad Vial",
+  "pregunta": "La conducción segura requiere:",
+  "opciones": ["Atención permanente al entorno", "Velocidad elevada", "Reacciones bruscas", "Uso constante de la bocina"],
+  "correcta": 0
 }
 ]
