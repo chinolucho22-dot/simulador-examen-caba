@@ -338,5 +338,185 @@
   "pregunta": "Ante una señal que indica estrechamiento de calzada, el conductor debe:",
   "opciones": ["Aumentar velocidad", "Extremar precauciones", "Detenerse obligatoriamente", "Circular por la banquina"],
   "correcta": 1
+},
+  {
+  "id": 46,
+  "tema": "Señalización",
+  "pregunta": "Una señal de contramano indica:",
+  "opciones": [
+    "Circulación permitida en ambos sentidos",
+    "Prohibición de ingresar desde ese sentido",
+    "Zona de estacionamiento",
+    "Velocidad máxima"
+  ],
+  "correcta": 1
+},
+{
+  "id": 47,
+  "tema": "Señalización",
+  "pregunta": "Una señal de ceda el paso obliga a:",
+  "opciones": [
+    "Detenerse siempre",
+    "Otorgar prioridad cuando corresponda",
+    "Acelerar",
+    "Girar obligatoriamente"
+  ],
+  "correcta": 1
+},
+{
+  "id": 48,
+  "tema": "Señalización",
+  "pregunta": "Las señales reglamentarias suelen tener como característica principal:",
+  "opciones": [
+    "Transmitir obligaciones o prohibiciones",
+    "Indicar atractivos turísticos",
+    "Advertir condiciones climáticas",
+    "Informar servicios"
+  ],
+  "correcta": 0
+},
+{
+  "id": 49,
+  "tema": "Señalización",
+  "pregunta": "Una línea de borde de calzada sirve para:",
+  "opciones": [
+    "Delimitar el límite de circulación",
+    "Permitir adelantamientos",
+    "Indicar una senda peatonal",
+    "Reservar estacionamiento"
+  ],
+  "correcta": 0
+},
+{
+  "id": 50,
+  "tema": "Señalización",
+  "pregunta": "Las tachas reflectivas sobre la calzada ayudan a:",
+  "opciones": [
+    "Reducir velocidad obligatoriamente",
+    "Guiar la circulación especialmente de noche",
+    "Señalar estacionamiento",
+    "Marcar zonas de carga"
+  ],
+  "correcta": 1
+},
+{
+  "id": 51,
+  "tema": "Señalización",
+  "pregunta": "Una señal de escuela cercana indica:",
+  "opciones": [
+    "Zona de velocidad libre",
+    "Presencia probable de niños y necesidad de precaución",
+    "Prohibición de paso",
+    "Carril exclusivo"
+  ],
+  "correcta": 1
+},
+{
+  "id": 52,
+  "tema": "Señalización",
+  "pregunta": "La señal de prohibido girar indica:",
+  "opciones": [
+    "Una recomendación",
+    "Una restricción obligatoria",
+    "Información turística",
+    "Advertencia preventiva"
+  ],
+  "correcta": 1
+},
+{
+  "id": 53,
+  "tema": "Señalización",
+  "pregunta": "Las señales informativas de color azul suelen indicar:",
+  "opciones": [
+    "Servicios y orientación",
+    "Peligro inminente",
+    "Prohibiciones",
+    "Obligación de detenerse"
+  ],
+  "correcta": 0
+},
+{
+  "id": 54,
+  "tema": "Señalización",
+  "pregunta": "Una línea de detención pintada antes de una senda peatonal indica:",
+  "opciones": [
+    "Lugar donde debe detenerse el vehículo si corresponde",
+    "Zona para estacionar",
+    "Carril exclusivo",
+    "Inicio de autopista"
+  ],
+  "correcta": 0
+},
+{
+  "id": 55,
+  "tema": "Señalización",
+  "pregunta": "Una señal preventiva debe interpretarse como:",
+  "opciones": [
+    "Advertencia para adecuar la conducción",
+    "Orden obligatoria",
+    "Información administrativa",
+    "Permiso especial"
+  ],
+  "correcta": 0
+},
+{
+  "id": 56,
+  "tema": "Señalización",
+  "pregunta": "La demarcación horizontal complementa:",
+  "opciones": [
+    "La señalización vertical",
+    "La documentación obligatoria",
+    "La VTV",
+    "La licencia de conducir"
+  ],
+  "correcta": 0
+},
+{
+  "id": 57,
+  "tema": "Señalización",
+  "pregunta": "Una señal de paso peatonal advierte:",
+  "opciones": [
+    "La proximidad de un cruce de peatones",
+    "Una zona de estacionamiento",
+    "Un carril exclusivo",
+    "Una curva peligrosa"
+  ],
+  "correcta": 0
+},
+{
+  "id": 58,
+  "tema": "Señalización",
+  "pregunta": "La señalización vial tiene como finalidad principal:",
+  "opciones": [
+    "Ordenar y brindar seguridad al tránsito",
+    "Controlar impuestos",
+    "Regular seguros",
+    "Determinar la propiedad de los vehículos"
+  ],
+  "correcta": 0
+},
+{
+  "id": 59,
+  "tema": "Señalización",
+  "pregunta": "Una señal de circulación obligatoria indica:",
+  "opciones": [
+    "Una sugerencia",
+    "Una dirección o maniobra que debe cumplirse",
+    "Una advertencia",
+    "Una información turística"
+  ],
+  "correcta": 1
+},
+{
+  "id": 60,
+  "tema": "Señalización",
+  "pregunta": "Ante señales contradictorias, ¿qué debe respetarse primero?",
+  "opciones": [
+    "Las marcas del pavimento",
+    "Las indicaciones de la autoridad de control del tránsito",
+    "Las señales informativas",
+    "La costumbre de los conductores"
+  ],
+  "correcta": 1
 }
 ]
