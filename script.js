@@ -131,19 +131,9 @@ if (respuestaUsuario === correcta) {
         </button>
 
     `;
+   }
 }
-{
-        respuestasCorrectas++;
-    }
-
-    preguntaActual++;
-
-    if (preguntaActual < examen.length) {
-        mostrarPregunta();
-    } else {
-        mostrarResultado();
-    }
-}
+    
 function continuarDespuesError() {
 
     preguntaActual++;
