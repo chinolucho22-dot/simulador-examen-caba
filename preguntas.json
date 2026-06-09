@@ -1,0 +1,13 @@
+[
+  {
+    "id":1,
+    "pregunta":"¿Cuál es el término correcto utilizado por el manual?",
+    "opciones":[
+      "Accidente de tránsito",
+      "Siniestro automotor",
+      "Incidente de tránsito",
+      "Hecho fortuito"
+    ],
+    "correcta":2
+  }
+]
