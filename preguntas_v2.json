@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": 1,
+    "tema": "Prioridades",
+    "pregunta": "En una encrucijada sin señalización, ¿quién tiene prioridad de paso?",
+    "opciones": [
+      "El vehículo de mayor tamaño",
+      "El que circula por la derecha",
+      "El que llega primero",
+      "El que circula por la izquierda"
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 2,
+    "tema": "Prioridades",
+    "pregunta": "Al aproximarse a una rotonda, ¿quién tiene prioridad?",
+    "opciones": [
+      "Quien pretende ingresar",
+      "Quien circula dentro de la rotonda",
+      "El vehículo más rápido",
+      "El vehículo de mayor porte"
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 3,
+    "tema": "Prioridades",
+    "pregunta": "Ante un peatón que cruza correctamente la calzada, el conductor debe:",
+    "opciones": [
+      "Acelerar para pasar primero",
+      "Ceder el paso",
+      "Tocar bocina",
+      "Continuar sin modificar la marcha"
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 4,
+    "tema": "Emergencias",
+    "pregunta": "Los vehículos de emergencia tienen prioridad cuando:",
+    "opciones": [
+      "Circulan normalmente",
+      "Llevan sirena y balizas activadas",
+      "Están estacionados",
+      "Circulan por avenidas"
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 5,
+    "tema": "Prioridades",
+    "pregunta": "Al salir de un garaje, ¿a quién debe cederse el paso?",
+    "opciones": [
+      "A los peatones",
+      "A los taxis",
+      "A los motociclistas",
+      "A los colectivos"
+    ],
+    "correcta": 0
+  }
+]
