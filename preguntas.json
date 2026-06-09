@@ -1,13 +1,62 @@
 [
   {
-    "id":1,
-    "pregunta":"¿Cuál es el término correcto utilizado por el manual?",
-    "opciones":[
-      "Accidente de tránsito",
-      "Siniestro automotor",
-      "Incidente de tránsito",
-      "Hecho fortuito"
-    ],
-    "correcta":2
+    "id": 1,
+    "pregunta": "¿Cuál es el término correcto utilizado por el manual?",
+    "opciones": ["Accidente de tránsito", "Siniestro automotor", "Incidente de tránsito", "Hecho fortuito"],
+    "correcta": 2
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué ley rige el Código de Tránsito y Transporte de CABA?",
+    "opciones": ["Ley 24449", "Ley 3072", "Ley 2148", "Ley 1752"],
+    "correcta": 2
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Cuál es uno de los principios básicos del sistema de tránsito?",
+    "opciones": ["Velocidad", "Fluidez", "Competencia", "Rapidez"],
+    "correcta": 1
+  },
+  {
+    "id": 4,
+    "pregunta": "En algún momento del día todas las personas son:",
+    "opciones": ["Conductores", "Pasajeros", "Peatones", "Ciclistas"],
+    "correcta": 2
+  },
+  {
+    "id": 5,
+    "pregunta": "Al salir de un garaje debe priorizarse:",
+    "opciones": ["Al automóvil", "Al peatón", "A la moto", "Al taxi"],
+    "correcta": 1
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Cuál es la velocidad máxima indicada para calles de prioridad peatonal?",
+    "opciones": ["10 km/h", "20 km/h", "30 km/h", "40 km/h"],
+    "correcta": 0
+  },
+  {
+    "id": 7,
+    "pregunta": "La edad mínima para conducir una bicicleta eléctrica es:",
+    "opciones": ["14", "15", "16", "18"],
+    "correcta": 2
+  },
+  {
+    "id": 8,
+    "pregunta": "La licencia de conducir acredita que:",
+    "opciones": ["El vehículo es propio", "La persona está habilitada para conducir", "Tiene seguro", "Pagó impuestos"],
+    "correcta": 1
+  },
+  {
+    "id": 9,
+    "pregunta": "El límite de alcohol para conductores principiantes es:",
+    "opciones": ["0,2", "0,5", "0,8", "0,0"],
+    "correcta": 3
+  },
+  {
+    "id": 10,
+    "pregunta": "Conducir es:",
+    "opciones": ["Un derecho absoluto", "Una actividad recreativa", "Un acto de responsabilidad", "Una obligación"],
+    "correcta": 2
   }
 ]
