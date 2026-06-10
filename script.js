@@ -3,6 +3,7 @@ let examen = [];
 let preguntaActual = 0;
 let respuestasCorrectas = 0;
 let errores = [];
+let estadisticasTema = {};
 
 const CANTIDAD_EXAMEN = 30;
 
@@ -27,6 +28,7 @@ function iniciarExamen() {
     preguntaActual = 0;
     respuestasCorrectas = 0;
     errores = [];
+    estadisticasTema = {};
 
     document.getElementById("startBtn").style.display = "none";
 
@@ -98,10 +100,30 @@ function siguientePregunta() {
         parseInt(seleccionada.value);
 
     const correcta = examen[preguntaActual].correcta;
+    const tema = examen[preguntaActual].tema;
+
+if (!estadisticasTema[tema]) {
+    estadisticasTema[tema] = {
+        correctas: 0,
+        total: 0
+    };
+}
+
+estadisticasTema[tema].total++;
 
 if (respuestaUsuario === correcta) {
 
     respuestasCorrectas++;
+    const tema = examen[preguntaActual].tema;
+
+if (!estadisticasTema[tema]) {
+    estadisticasTema[tema] = {
+        correctas: 0,
+        total: 0
+    };
+}
+
+estadisticasTema[tema].total++;
 
     preguntaActual++;
 
@@ -183,6 +205,20 @@ function mostrarResultado() {
             </p>
         `;
     });
+
+    let resumenTemas = "";
+
+for (const tema in estadisticasTema) {
+
+    const datos = estadisticasTema[tema];
+
+    resumenTemas += `
+        <p>
+            <strong>${tema}:</strong>
+            ${datos.correctas}/${datos.total}
+        </p>
+    `;
+}
 
     document.getElementById("app").innerHTML = `
 
