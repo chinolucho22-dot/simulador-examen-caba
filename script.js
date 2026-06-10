@@ -115,10 +115,11 @@ if (respuestaUsuario === correcta) {
 
     const respuestaCorrecta =
         examen[preguntaActual].opciones[correcta];
+    
     errores.push({
     pregunta: examen[preguntaActual].pregunta,
-    correcta: respuestaCorrecta,
     usuario: examen[preguntaActual].opciones[respuestaUsuario]
+    correcta: respuestaCorrecta,
 });
     let detalleErrores = "";
 
@@ -176,12 +177,35 @@ function continuarDespuesError() {
 }
 function mostrarResultado() {
 
-    const porcentaje =
+  const porcentaje =
         Math.round(
             (respuestasCorrectas / examen.length) * 100
         );
 
     const aprobado = porcentaje >= 70;
+
+    let detalleErrores = "";
+
+    errores.forEach((error, index) => {
+
+        detalleErrores += `
+
+            <hr>
+
+            <h3>❌ Error ${index + 1}</h3>
+
+            <p><strong>Pregunta:</strong>
+            ${error.pregunta}</p>
+
+            <p><strong>Tu respuesta:</strong>
+            ${error.usuario}</p>
+
+            <p style="color:green;">
+            <strong>Respuesta correcta:</strong>
+            ${error.correcta}
+            </p>
+        `;
+    });
 
     document.getElementById("app").innerHTML = `
 
@@ -206,14 +230,14 @@ function mostrarResultado() {
         <button onclick="reiniciarExamen()">
             🔄 Rendir otro examen
         </button>
+
         <br><br>
 
-<h2>Tus errores</h2>
+        <h2>Tus errores</h2>
 
-${detalleErrores}
+        ${detalleErrores}
     `;
-}
-
+}   
 function reiniciarExamen() {
 
     iniciarExamen();
