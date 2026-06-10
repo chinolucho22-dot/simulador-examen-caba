@@ -246,9 +246,15 @@ for (const tema in estadisticasTema) {
 
         <br><br>
 
-        <h2>Tus errores</h2>
+<h2>📊 Rendimiento por tema</h2>
 
-        ${detalleErrores}
+${resumenTemas}
+
+<br>
+
+<h2>Tus errores</h2>
+
+${detalleErrores}
     `;
 }   
 function reiniciarExamen() {
