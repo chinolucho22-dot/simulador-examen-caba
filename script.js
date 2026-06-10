@@ -118,31 +118,8 @@ if (respuestaUsuario === correcta) {
     
     errores.push({
     pregunta: examen[preguntaActual].pregunta,
-    usuario: examen[preguntaActual].opciones[respuestaUsuario]
-    correcta: respuestaCorrecta,
-});
-    let detalleErrores = "";
-
-errores.forEach((error, index) => {
-
-    detalleErrores += `
-
-        <hr>
-
-        <h3>❌ Error ${index + 1}</h3>
-
-        <p><strong>Pregunta:</strong>
-        ${error.pregunta}</p>
-
-        <p><strong>Tu respuesta:</strong>
-        ${error.usuario}</p>
-
-        <p style="color:green;">
-        <strong>Respuesta correcta:</strong>
-        ${error.correcta}
-        </p>
-
-    `;
+    usuario: examen[preguntaActual].opciones[respuestaUsuario],
+    correcta: respuestaCorrecta
 });
 
     document.getElementById("app").innerHTML = `
